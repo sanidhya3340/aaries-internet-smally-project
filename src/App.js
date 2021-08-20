@@ -8,8 +8,8 @@ import {
 } from "react-router-dom";
 
 //import pages
-import Home from './pages/Home'
-
+import HomePage from './pages/HomePage'
+import LandingPage from './pages/LandingPage'
 
 
 
@@ -20,7 +20,10 @@ function App() {
 
       <Switch>
         <Route exact path="/">
-          <Home />
+          <HomePage />
+        </Route>
+        <Route exact path="/landing-page">
+          <LandingPage />
         </Route>
       </Switch>
     </Router>

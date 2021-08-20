@@ -22,6 +22,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center md:mr-16">
                 <Link to="/" className="mx-2 hover:text-red-text hover:underline">Home</Link>
+                <Link to="/landing-page" className="mx-2 hover:text-red-text hover:underline">Landing Page</Link>
                 <Link to="/" className="mx-2 hover:text-red-text hover:underline">About</Link>
                 <Link to="/" className="mx-2 hover:text-red-text hover:underline">Services</Link>
                 <Link to="/" className="mx-2 hover:text-red-text hover:underline">Host</Link>
