@@ -16,13 +16,11 @@ import LandingPage from './pages/LandingPage'
 function App() {
   return (
     <Router>
-      
-
       <Switch>
         <Route exact path="/">
           <HomePage />
         </Route>
-        <Route exact path="/landing-page">
+        <Route exact path="/performers">
           <LandingPage />
         </Route>
       </Switch>

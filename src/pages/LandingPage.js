@@ -4,13 +4,13 @@ import Cards from '../components/Card'
 //import Componentts
 import Navbar from '../components/Navbar'
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 
 export default function Home() {
     return (
         
         <div className="bg-gradient-to-b from-red-primary  to-red-bg">
-            <Header />
+            {/* <Header /> */}
             <Navbar />
         <div className="mx-16">
             <div className="flex flex-col md:flex-row ">
