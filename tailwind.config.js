@@ -8,6 +8,7 @@ module.exports = {
           primary: '#FFE0E0',
           bg: '#F6F2F2',
           text: '#FD4E4E',
+          light: '#FFEFEF'
         }
       },
       backgroundImage: theme => ({
