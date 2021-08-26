@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function OurPerformers() {
   return (
-    <div className="flex justify-between mx-28 mt-12">
+    <div className="md:flex md:justify-between mx-4 lg:mx-28 mt-12">
       <div>
         <p className="text-xl md:ext-4xl lg:text-5xl font-bold text-gray-500">
           Our Performers
@@ -13,8 +13,12 @@ export default function OurPerformers() {
         </p>
       </div>
       <div>
-        <div className="bg-white shadow-lg hover:shadow-xl rounded-xl px-2 py-3 flex mr-8">
-          <img src="/assets/card/2.png" alt="" />
+        <div className="bg-white shadow-lg hover:shadow-xl rounded-xl px-2 py-3 mt-4 md:mt-0 flex items-center lg:mr-8">
+          <img
+            src="/assets/card/2.png"
+            alt=""
+            className="md:w-28 md:h-28 lg:w-36 lg:h-36"
+          />
           <div className="ml-3">
             <p className="font-bold text-base md:text-lg lg:text-2xl ">
               Bachospati
@@ -84,7 +88,10 @@ export default function OurPerformers() {
             </div>
           </div>
         </div>
-        <Link to="/performers" className="flex flex-row-reverse items-center mt-2">
+        <Link
+          to="/performers"
+          className="flex flex-row-reverse items-center mt-2 transition duration-500 ease-in-out transform hover:-translate-x-2 hover:scale-110"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-4 w-4 text-red-text"
@@ -102,7 +109,7 @@ export default function OurPerformers() {
               clipRule="evenodd"
             />
           </svg>
-          <p className="text-red-text">View All</p>
+          <p className="text-red-text ">View All</p>
         </Link>
       </div>
     </div>

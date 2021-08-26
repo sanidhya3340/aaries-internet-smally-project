@@ -11,12 +11,12 @@ export default function IndividualPage() {
     return (
       <div className="bg-gradient-to-b from-red-primary  to-red-bg">
         <Navbar />
-        <div className="mx-8 lg:mx-20 md:flex md:justify-between md:items-center mt-16">
-          <div className="font-semibold text-base md:text-lg lg:text-xl">
+        <div className="mx-8 lg:mx-36 md:flex md:justify-between md:items-center mt-16">
+          <div className="font-semibold text-base md:text-lg lg:text-xl mr-8 w-auto md:w-3/5">
             I will be Performing “Afro-Cuban” Jazz Music honouring people who
             have made it popular among us.
           </div>
-          <div className="mt-4 md:mt-0 bg-red-light flex flex-col justify-between  pt-6 rounded-2xl shadow-lg hover:shadow-xl">
+          <div className="hidden md:visible mt-4 md:mt-0 bg-red-light md:flex md:flex-col md:justify-between  pt-6 rounded-2xl shadow-lg hover:shadow-xl">
             <div className="px-4 flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
