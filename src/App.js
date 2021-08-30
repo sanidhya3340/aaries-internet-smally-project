@@ -10,6 +10,8 @@ import {
 import HomePage from './pages/HomePage'
 import LandingPage from './pages/LandingPage'
 import IndividualPage from "./pages/IndividualPage";
+import LoginPage from "./pages/LoginPage";
+import SignUpPage from "./pages/SignUpPage";
 
 
 function App() {
@@ -24,6 +26,12 @@ function App() {
         </Route>
         <Route exact path="/individual">
           <IndividualPage />
+        </Route>
+        <Route exact path="/login">
+          <LoginPage />
+        </Route>
+        <Route exact path="/signup">
+          <SignUpPage />
         </Route>
       </Switch>
     </Router>

@@ -13,12 +13,12 @@ export default function Navbar() {
         </div>
       </Link>
       <div className="mx-8 md:mx-0 flex items-center md:mr-16">
-        <Link>
+        <Link to="/signup">
           <button className="shadow-md hover:shadow-lg bg-red-text text-white text-xs md:text-base font-bold py-1 px-4 md:py-2 md:px-8 rounded-full">
             Create Account
           </button>
         </Link>
-        <Link className="ml-3">
+        <Link className="ml-3" to="/login">
           <button className="shadow-md hover:shadow-lg text-red-text bg-white text-xs md:text-base font-bold py-1 px-8 md:py-2 md:px-16 rounded-full">
             Login
           </button>
