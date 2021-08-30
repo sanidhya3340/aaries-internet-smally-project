@@ -9,7 +9,9 @@ export default function SignUpPage() {
   const [password, setPassword] = useState("");
   return (
     <div className="mt-20 mx-8 md:mx-16">
-      <img src="/assets/navbar/Smally-name.png" alt="" className="w-32" />
+      <Link to="/">
+        <img src="/assets/navbar/Smally-name.png" alt="" className="w-32" />
+      </Link>
       <div className="mt-6 font-bold text-gray-700 text-5xl">
         Create an account !
       </div>

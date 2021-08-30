@@ -8,7 +8,9 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   return (
     <div className="mt-20 mx-8 md:mx-16">
-      <img src="/assets/navbar/Smally-name.png" alt="" className="w-32" />
+      <Link to="/">
+        <img src="/assets/navbar/Smally-name.png" alt="" className="w-32" />
+      </Link>
       <div className="mt-6 font-bold text-gray-700 text-5xl">Login !</div>
       <form
         action=""
@@ -34,7 +36,9 @@ export default function LoginPage() {
       </form>
       <div className="text-gray-500 font-semibold flex mt-4">
         I am a new user,{" "}
-        <Link to="/signup" className="text-red-text font-semibold">Sign up.</Link>
+        <Link to="/signup" className="text-red-text font-semibold">
+          Sign up.
+        </Link>
       </div>
       <Footer />
     </div>
