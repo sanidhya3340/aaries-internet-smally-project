@@ -12,6 +12,7 @@ import LandingPage from './pages/LandingPage'
 import IndividualPage from "./pages/IndividualPage";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route exact path="/signup">
           <SignUpPage />
+        </Route>
+        <Route exact path="/privacy">
+          <PrivacyPolicyPage />
         </Route>
       </Switch>
     </Router>
