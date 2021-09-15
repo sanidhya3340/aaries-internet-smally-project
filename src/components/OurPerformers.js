@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function OurPerformers() {
   return (
     <div className="md:flex md:justify-between mx-4 lg:mx-28 mt-12">
-      <div>
+      <div className="pr-4">
         <p className="text-xl md:ext-4xl lg:text-5xl font-bold text-gray-500">
           Our Performers
         </p>

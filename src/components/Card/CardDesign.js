@@ -83,7 +83,7 @@ export default function CardDesign({ name, date, duration, desig, description, i
             to="/individual"
             className="bg-red-text px-4 py-2 rounded-full font-bold text-white shadow-lg hover:shadow-2xl"
           >
-            I'm Intrested
+            I’m interested
           </Link>
         </div>
       </div>

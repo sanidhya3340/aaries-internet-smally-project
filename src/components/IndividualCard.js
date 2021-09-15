@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function IndividualCard() {
     return (
-      <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl mx-12 md:mx-20 lg:mx-28 my-12 bg-red-primary rounded-3xl shadow-lg cursor-pointer flex flex-col justify-between">
+      <div className="md:w-3/5 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl  my-12 bg-red-primary rounded-3xl shadow-lg cursor-pointer flex flex-col justify-between">
         <div className="border-8 border-white shadow-lg px-4 py-2 flex justify-between items-center bg-red-light rounded-3xl">
           <img src="/assets/card/6.png" alt="shadow-md" />
           <div>
             <div className="text-red-text font-bold text-lg md:text-xl lg:text-3xl md:mr-12">
-              Watch <span className="text-gray-800">‘Gagan Devi’</span>
+              <span className="text-gray-800">‘Gagan Devi’</span>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center ">
               <p className="text-2xl md:text-4xl font-bold text-gray-800">
                 Live
               </p>
@@ -22,7 +22,7 @@ export default function IndividualCard() {
           </div>
         </div>
         <div className="my-6 pb-6 mx-4">
-          <p className="text-gray-600 text-sm">
+          <p className="text-gray-600 text-sm font-semibold">
             Hey guys, Come and watch my show and enjoy every minute while
             listening to your favourite music.
           </p>

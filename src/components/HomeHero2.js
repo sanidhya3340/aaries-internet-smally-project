@@ -25,7 +25,7 @@ export default function HomeHero2() {
 
         <div className="flex flex-col justify-center items-center">
           <p className="text-gray-600 lg:text-3xl mb-3 font-bold">
-            Original Content
+            Entertaining
           </p>
           <img
             src="/assets/homePage/hero/3.png"
