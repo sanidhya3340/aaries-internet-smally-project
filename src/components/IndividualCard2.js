@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function IndividualCard2() {
     return (
-      <div className="hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:visible mt-4 md:mt-0 bg-red-light md:flex md:flex-col md:justify-between pt-8 rounded-2xl shadow-lg hover:shadow-xl">
+      <div className="hidden h-48 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:visible md:mt-12 bg-red-light md:flex md:flex-col md:justify-between pt-8 rounded-2xl shadow-lg hover:shadow-xl">
         <div className="px-6 flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"

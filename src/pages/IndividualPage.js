@@ -14,7 +14,7 @@ export default function IndividualPage() {
         Watch <span className="text-red-text">Gagan Devi</span> Performing
         ‘Afro-Cuban’ Jazz .
       </div>
-      <div className="flex mx-12 md:mx-20 lg:mx-28 justify-between items-center">
+      <div className="flex mx-12 md:mx-20 lg:mx-28 justify-between">
         <IndividualCard />
         <IndividualCard2 />
       </div>
