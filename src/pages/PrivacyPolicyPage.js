@@ -1,8 +1,10 @@
 import React from "react";
 import {Link} from "react-router-dom"
 import Footer from "../components/Footer";
+import { useTitle } from "../hooks/title";
 
 export default function PrivacyPolicyPage() {
+  useTitle("Privacy Policy of Smally");
   return (
     <div className="px-8 py-12 bg-gradient-to-b from-red-primary  to-red-bg">
       <Link to="/">
@@ -30,11 +32,6 @@ export default function PrivacyPolicyPage() {
           for visitors to our website with regards to the information that they
           shared and/or collect in Smally. This policy is not applicable to any
           information collected offline or via channels other than this website.
-          Our Privacy Policy was created with the help of the{" "}
-          <a href="https://www.termsfeed.com/privacy-policy-generator/">
-            TermsFeed Privacy Policy Generator
-          </a>
-          .
         </p>
 
         <h2 className="text-red-text font-bold text-2xl mt-4">Consent</h2>

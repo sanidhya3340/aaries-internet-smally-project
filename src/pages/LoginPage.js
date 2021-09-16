@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Footer from "../components/Footer";
+import { useTitle } from "../hooks/title";
 
 export default function LoginPage() {
+  useTitle("Sign Up to Smally");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (

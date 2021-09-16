@@ -5,8 +5,10 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import IndividualCard from "../components/IndividualCard";
 import IndividualCard2 from "../components/IndividualCard2";
+import { useTitle } from "../hooks/title";
 
 export default function IndividualPage() {
+  useTitle("Pay to Watch Live Performance");
   return (
     <div className="bg-gradient-to-b from-red-primary  to-red-bg">
       <Navbar />

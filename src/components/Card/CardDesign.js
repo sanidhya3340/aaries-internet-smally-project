@@ -6,7 +6,7 @@ export default function CardDesign({ name, date, duration, desig, description, i
       <div className="bg-red-primary rounded-xl shadow-xl flex flex-col justify-between mt-4 w-72 md:mt-0 md:w-60 lg:w-80">
         <div className="bg-white flex mx-4 my-4 rounded-lg px-4 py-2 items-center">
           <img src={imgUrl} alt="" className="w-24 h-24 md:w-20 md:h-20" />
-          <div className="md:ml-4">
+          <div className="ml-2 md:ml-4">
             <p className="font-bold text-base md:text-lg lg:text-2xl ">
               {name}
             </p>
@@ -23,7 +23,7 @@ export default function CardDesign({ name, date, duration, desig, description, i
             <div className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4"
+                className="h-4 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -37,7 +37,7 @@ export default function CardDesign({ name, date, duration, desig, description, i
               </svg>
               <p className="text-xs md:text-sm ml-1">{date}</p>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center mt-1 justify-left">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4"
@@ -54,7 +54,7 @@ export default function CardDesign({ name, date, duration, desig, description, i
               </svg>
               <p className="text-xs md:text-sm ml-1">{duration}</p>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center mt-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4"
